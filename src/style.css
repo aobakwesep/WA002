@@ -81,22 +81,19 @@ display: flex;
 
 
 .icon{
-    font-size: 48px;
-    margin-top: 22px;
     width: 88px;
     height: 88px;
 }
 
 .temperature-value{
-    font-size: 48px;
+    font-size: 88px;
     font-weight: bold;
-    margin-left: 10px;
     line-height: 88px;
 }
 
 .temperature-unit{
     margin-top: 6px;
-    font-size: 24px;
+    font-size: 28px;
 
 }
 
