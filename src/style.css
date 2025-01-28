@@ -93,8 +93,37 @@ display: flex;
 
 .temperature-unit{
     margin-top: 6px;
-    font-size: 28px;
+    font-size: 28px;}
 
+.weather-forecast{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;}
+
+
+.forecast-weekday{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgba(39, 33, 66, 0.4);
+}
+
+.forecast-temps{
+    text-align: center;
+    color: rgba(39, 33, 66, 0.4);
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+.forecast-temp{
+    padding:  0 10px;
+}
+
+.forecast-icon{
+    width: 38px;
+    text-align: center;
 }
 
 footer{
