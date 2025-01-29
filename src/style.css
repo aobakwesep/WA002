@@ -97,34 +97,43 @@ display: flex;
 
 .weather-forecast{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 30px;}
 
+    .forecast-day{
+        text-align: center;
+        padding: 20px;
+        border-radius: 12px;
+        background-color: #f9f7fe;
+        margin: 0 10px;
+    }
 
-.forecast-weekday{
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    margin-bottom: 10px;
-    color: rgba(39, 33, 66, 0.4);
-}
+    .forecast-weekday{
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        margin-bottom: 10px;
+        color: rgba(39, 33, 66, 0.4);
+    }
+
+    .forecast-icon{
+        font-size: 38px;
+        text-align: center;
+    }
 
 .forecast-temps{
     text-align: center;
-    color: rgba(39, 33, 66, 0.4);
+    color: #f65282;
     justify-content: center;
     display: flex;
     margin-top: 10px;
 }
 
-.forecast-temp{
+.forecast-temp {
     padding:  0 10px;
 }
 
-.forecast-icon{
-    width: 38px;
-    text-align: center;
-}
+
 
 footer{
     border-top: 1px solid #f9f7fe;
